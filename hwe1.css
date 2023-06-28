@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar{
+  width: 100%; 
+  overflow: hidden;
+  height: 70px; 
+  line-height: 70px;
+  background: gold;
+  border-bottom: 2px solid blue;
+}
+.logo{
+    width: 60px;
+    float: left;
+
+}
+.menu{
+    float: right;
+}
+.menu li{
+    float: left;
+    width: 120px;
+    height: 70 px;
+    line-height: 70px;
+    text-align: center;
+    list-style: none;
+
+}
+.menu li a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display: block;
+}
+.menu li:hover{
+    background: #dc3545;
+}
+.menu li a:hover{
+    color: #fff;
+}
+.content{
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    height: max-content;
+}
+.content img{
+    width: 90px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.content p{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+
+}
+.foot{
+    width: 90%;
+    height: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
